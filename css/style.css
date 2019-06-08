@@ -15,10 +15,6 @@ p {
     margin: 0px 0px;
 }
 
-.starterMenu {
-    border: 1px solid white;
-}
-
 span { 
     display: block; 
     width: 33%; 
@@ -54,6 +50,14 @@ span {
 
 #title {
     text-align: center;
+}
+
+.mainExtra {
+    font-style: italic;
+}
+
+.extras {
+    padding-top : 10px;
 }
 
 #aboutTitle {
