@@ -8,7 +8,7 @@
 
 #top {
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 p {
@@ -58,11 +58,6 @@ span {
 
 .extras {
     padding-top : 10px;
-}
-
-#aboutTitle {
-    text-align: center;
-    padding-top: 20px;
 }
 
 #menuDishes {
