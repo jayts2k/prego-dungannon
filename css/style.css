@@ -6,9 +6,17 @@
     margin-right: 66%;
 }
 
-#opening {
+#top {
     text-align: justify;
     margin-top: 50px;
+}
+
+p {
+    margin: 0px 0px;
+}
+
+.starterMenu {
+    border: 1px solid white;
 }
 
 span { 
@@ -43,9 +51,24 @@ span {
     margin-bottom: 30px;
 }
 
+
 #title {
     text-align: center;
-    padding-top: 80px;
+}
+
+#aboutTitle {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#menuDishes {
+    text-align: center;
+    padding-top: 120px;
+}
+
+#startDish {
+    text-align: center;
+    padding-top: 30px;
 }
 
 body {
@@ -53,6 +76,8 @@ body {
     font-size: 125%;
     background-color: black;
     color: white;
+    margin:0;
+    padding-top: 90px;
 }
 
 #mainNav {
