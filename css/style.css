@@ -39,6 +39,25 @@ span {
     background-color: red;
 }
 
+.mapouter{
+    height:480px;
+    width:480px;
+    position: relative;
+    text-align: right;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:480px;
+    width:480px;
+}
+
+#mapTitle {
+    text-align: center; 
+    padding-bottom: 10px;
+}
+
 #titleColour {
     width: 100%;
 }
@@ -117,33 +136,45 @@ a.nav-link {
     border-radius: 50%;
 }
 
+#reviewer {
+    padding-top: 12px;
+}
+
+#testimonials {
+    margin-bottom: 60px;
+    border: 2px solid red;
+    border-radius: 25px;
+} 
+
+a:active, a:visited, .active {
+    border-bottom: red solid 2px;
+}
+
+.dateOfEvent td, .dateOfEvent th {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
 .fa-facebook {
     background: #3B5998;
     color: white;
+    text-decoration: none;
 }
 
 .fa-twitter {
     background: #55ACEE;
     color: white;
-}
-
-.fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
+    text-decoration: none;
 }
 
 .fa:hover {
     color: white;
+    text-decoration: none;
 }
-
-
-
-
-
-

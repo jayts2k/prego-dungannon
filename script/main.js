@@ -1,1 +1,1 @@
-// enter jaavscript here
+// enter javascript here
