@@ -1,14 +1,11 @@
-#brand {
-    border-top: 2px solid red;
-    border-bottom: 2px solid green;
-    padding: 0 10px;
-    text-transform: uppercase;
-    margin-right: 66%;
-}
-
-#top {
-    text-align: justify;
-    margin-top: 30px;
+/* HTML elements start */
+body {
+    font-family: 'Felipa', cursive;
+    font-size: 125%;
+    background-color: black;
+    color: white;
+    margin:0;
+    padding-top: 90px;
 }
 
 p {
@@ -23,7 +20,18 @@ span {
     margin-bottom: 20px;
 }
 
-.underLine{
+a.nav-link {
+    color: white !important;
+}
+
+a:active, a:visited, .active {
+    border-bottom: red solid 2px;
+}
+/* HTML elements end */
+
+
+/* CLASS elements start */
+.underLine, #titleColour {
     width:100%;
 }
 
@@ -53,101 +61,8 @@ span {
     width:480px;
 }
 
-#mapTitle {
-    text-align: center; 
-    padding-bottom: 10px;
-}
-
-#titleColour {
-    width: 100%;
-}
-
 .space {
     margin-bottom: 30px;
-}
-
-
-#title {
-    text-align: center;
-}
-
-.mainExtra {
-    font-style: italic;
-}
-
-.extras {
-    padding-top : 10px;
-}
-
-#menuDishes {
-    text-align: center;
-    padding-top: 120px;
-}
-
-#startDish {
-    text-align: center;
-    padding-top: 30px;
-}
-
-body {
-    font-family: 'Felipa', cursive;
-    font-size: 125%;
-    background-color: black;
-    color: white;
-    margin:0;
-    padding-top: 90px;
-}
-
-#mainNav {
-    background-color: black;
-    padding: 30px 20px;
-}
-
-a.nav-link {
-    color: white !important;
-}
-
-.social {
-    background-color: black;
-    padding: 5px 0px;
-    color: white;
-}
-
-.social a {
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-#text {
-    text-align: right;
-}
-
-#social {
-    text-align: left;
-    background-color: black;
-}
-
-.fa {
-    padding: 11px;
-    font-size: 14px;
-    width: 39px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-#reviewer {
-    padding-top: 12px;
-}
-
-#testimonials {
-    margin-bottom: 60px;
-    border: 2px solid red;
-    border-radius: 25px;
-} 
-
-a:active, a:visited, .active {
-    border-bottom: red solid 2px;
 }
 
 .dateOfEvent td, .dateOfEvent th {
@@ -155,7 +70,6 @@ a:active, a:visited, .active {
     height: 1.5em;
 }
 
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
 .container img {
     float: left;
     margin-top: 10px;
@@ -178,3 +92,79 @@ a:active, a:visited, .active {
     color: white;
     text-decoration: none;
 }
+
+.fa {
+    padding: 11px;
+    font-size: 14px;
+    width: 39px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.mainExtra {
+    font-style: italic;
+}
+
+.extras {
+    padding-top : 10px;
+}
+/* CLASS elements end */
+
+
+/* ID elements start */
+#mainNav {
+    background-color: black;
+    padding: 30px 20px;
+}
+
+#brand {
+    border-top: 2px solid red;
+    border-bottom: 2px solid green;
+    padding: 0 10px;
+    text-transform: uppercase;
+    margin-right: 66%;
+}
+
+#top {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#mapTitle {
+    text-align: center; 
+    padding-bottom: 10px;
+}
+
+#title {
+    text-align: center;
+}
+#menuDishes {
+    text-align: center;
+    padding-top: 120px;
+}
+
+#startDish {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#text {
+    text-align: right;
+}
+
+#social {
+    text-align: left;
+    background-color: black;
+}
+
+#reviewer {
+    padding-top: 12px;
+}
+
+#testimonials {
+    margin-bottom: 60px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+/* ID elements end */
