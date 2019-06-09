@@ -25,11 +25,12 @@ These instructions will get you a copy of the project up and running on your loc
 We use VS Code Source Control for versioning. For the versions available, see the tags on this repository.
 
 Authors
-    Jonathan Smith
 
+    Jonathan Smith
+      
 See also the list of contributors who participated in this project.
 
 ## License
 
 This project was completed in VS Code. All pictures and icons were sourced from free content. 
-Any copyright issues please reach out to [email us](mailto:jayts2k@googlemail.com) 
+Any copyright issues please reach out to [Jonathan Smith](mailto:jayts2k@googlemail.com) 
